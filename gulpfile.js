@@ -42,7 +42,7 @@ gulp.task('test', [], function (cb) {
 
   gulp.src('test/**/*.js')
     .pipe(plumber())
-    .pipe(mocha({reporter: 'min'}))
+    .pipe(mocha({reporter: 'spec'}))
     .on('error', function (err) {
       mochaErr = err
       console.log(err)
