@@ -1,6 +1,6 @@
 {
   "name": "aqi-plus",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A package to calculate the air quality index from AirCast and NowCast",
   "homepage": "",
   "author": {
